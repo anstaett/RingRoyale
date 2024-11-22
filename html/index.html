@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ring Royale</title>
+        <link rel="icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <section id="header">
+            <a href="#top"><img id="headerlogo" src="img/ringroyaleheader.png" alt=""></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href=#footer>Contact Us</a></li>
+                    <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li style="visibility: hidden;" id="cart-count"></li>
+                    <a href="#" id="close"><i class="fa-solid fa-x"></i></a>
+                </ul>
+            </div>
+            <div id="mobile">
+                <a class="atc" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <i id="bar" class="fa-solid fa-bars"></i>
+            </div>
+        </section>
+
+        <section id="hero">
+            <div class="herodiv">
+                <h2>Where Moments Shine Bright</h2>
+                <h4>Discover Your Perfect Ring</h4>
+                <button onclick="location.href='shop.html';">Shop Now</button>
+            </div>
+            <div class="herodiv">
+                <div class="heroimg">
+                    <img src="img/ringsHero.png" alt=""> 
+                </div>
+            </div>  
+        </section>
+        
+        <section>
+            <h2 id="new" style="text-align: center;">New Arrivals</h2>
+            <p style="text-align: center;">Note: Only the Lion Ring is available for purchase at this time.</p>
+        </section>
+
+        <section class="items">
+            <div onclick="location.href='sproduct.html';" class="box">
+                <img src="img/RingWebIMG/Rings/lionring.jpg" alt="">
+                <h3 class="productName">Luxurios Lion Ring</h3>
+                <div class="pc">
+                    <p class="productPrice">$20</p>
+                    <button class="atc"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div onclick="alert('This product is not available for purchase yet.');" class="box">
+                <img src="img/RingWebIMG/Rings/smartring.jpg" alt="">
+                <h3 class="productName">Superior Smart Ring</h3>
+                <div class="pc">
+                    <p class="productPrice">$60</p>
+                    <button class="atc"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div onclick="alert('This product is not available for purchase yet.');" class="box">
+                <img src="img/RingWebIMG/Rings/heartring.png" alt="">
+                <h3 class="productName">Heart Hands Ring</h3>
+                <div class="pc">
+                    <p class="productPrice">$75</p>
+                    <button class="atc"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div onclick="alert('This product is not available for purchase yet.');" class="box">
+                <img src="img/RingWebIMG/Rings/infinityring.jpg" alt="">
+                <h3 class="productName">Immaculate Infinity Ring</h3>
+                <div class="pc">
+                    <p class="productPrice">$35</p>
+                    <button class="atc"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="reviews">
+            <h2>Testimonials</h2>
+            <div class="wrapper">
+                <div class="btns">
+                    <button id="prev">
+                      <i class="fas fa-arrow-left"></i>
+                    </button>
+                  </div>
+                <div class="container">
+                  <div class="image-cube">
+                    <div class="front">
+                        <p>Until now, I had never succeeded in obtaining a ring. Now I finally have one! I owe my gratitude to Ring Royale.</p>
+                        <p>-Chris Paul</p>
+                        <img src="" alt="">
+                    </div>
+                    <div class="right">
+                        <p>I've always struggled to acquire a ring, but thanks to Ring Royale, that has changed!</p>
+                        <p>-James Harden</p>
+                    </div>
+                    <div class="back">
+                        <p>Getting a ring had eluded me until this moment, and I want to express my appreciation to Ring Royale!</p>
+                        <p>-Charles Barkley</p>
+                    </div>
+                    <div class="left">
+                        <p>It wasn't until now that I finally managed to secure a ring, and I'm thankful to Ring Royale for making it possible!</p>
+                        <p>-Russell Westbrook</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="btns">
+                  <button id="next">
+                    <i class="fas fa-arrow-right"></i>
+                  </button>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 id="new">Favorites</h2>
+        </section>
+
+        <section class="items">
+            <div onclick="alert('This product is not available for purchase yet.');" class="box">
+                <img src="img/RingWebIMG/Rings/silverband.jpg" alt="">
+                <h3 class="productName">Simple Silver Ring</h3>
+                <div class="pc">
+                    <p class="productPrice">$10</p>
+                    <button class="atc"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div onclick="alert('This product is not available for purchase yet.');" class="box">
+                <img src="img/RingWebIMG/Rings/diamondring.png" alt="">
+                <h3 class="productName">Dazzling Diamond Ring</h3>
+                <div class="pc">
+                    <p class="productPrice">$80</p>
+                    <button class="atc"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div onclick="alert('This product is not available for purchase yet.');" class="box">
+                <img src="img/RingWebIMG/Rings/rubyring.jpg" alt="">
+                <h3 class="productName">Ravishing Ruby Ring</h3>
+                <div class="pc">
+                    <p class="productPrice">$89</p>
+                    <button class="atc"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div onclick="alert('This product is not available for purchase yet.');" class="box">
+                <img src="img/RingWebIMG/Rings/LOTR.png" alt="">
+                <h3 class="productName">One Ring To Rule Them All</h3>
+                <div class="pc">
+                    <p class="productPrice">$99</p>
+                    <button class="atc"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter" class="section-p1 section-m1">
+            <div class="newstext">
+                <h4>Sign Up for Newsletter</h4>
+                <p>Get Email Updates about our latest shop and <span>special offers.</span></p>
+            </div>
+            <div class="form">
+                <input type="text" id="emailInput" placeholder="Your email address">
+                <button class="normal" onclick="newsLetterSubmit()">Sign Up</button>
+            </div>
+        </section>
+
+        <footer class="section-p1" id="footer">
+            <div class="col">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong> 1 Main St, Los Angles</p>
+                <p><strong>Phone:</strong> 800 555 5555</p>
+                <p><strong>Hours:</strong> 9 am - 5 pm, Mon - Sat</p>
+                <div class="follow">
+                    <h4>Follow us</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <a href="#">About Us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Orders</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="col install">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class="row">
+                    <img src="img/pay/app.jpg" alt="">
+                    <img src="img/pay/play.jpg" alt="">
+                </div>
+                <p>Secured Payment Gateways</p>
+                <img src="img/pay/pay.png" alt="">
+            </div>
+        </footer>
+
+    </body>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+    <script src="cart.js"></script>
+
+</html>
+

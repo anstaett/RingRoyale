@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "../chat-app"
+		},
+		{
+			"path": "../customizer"
+		},
+		{
+			"path": "../react-tetris"
+		},
+		{
+			"path": "../henryanstaettweatherapp/weather-app"
+		},
+		{
+			"path": "../portfolio23"
+		},
+		{
+			"path": "../responsive-watches-website-main"
+		},
+		{
+			"path": "../Build-and-Deploy-Ecommerce-Website-main"
+		},
+		{
+			"path": "../../../Tutorial - Copy"
+		},
+		{
+			"path": "../rings"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "RingWeb"
+	}
+}
